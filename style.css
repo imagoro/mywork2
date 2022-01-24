@@ -24,7 +24,7 @@ width: 300px;
 height: 600px;
 left: 12px;
 top: 12px;
-background: #FFFFFF;
+background: #FFF;
 margin-left: 400px;
 }
 .jas{
@@ -852,4 +852,50 @@ margin-left: -180px;
 	margin: -150px -40px;
 	margin-left: -200px;
 	margin-top: 160px;	
+}
+.contact_me{
+	position: static;
+	width: 327px;
+	height: 779px;
+	background-color: #6070ff;
+	margin-top: 20px;
+	border-radius: 80px 0 0 0;
+	color: white
+}
+.contact_me h2{
+	padding: 100px 20px 0 20px;
+	display: flex;
+}
+.contact_me p{
+	padding: 0 20px 20px 20px;
+}
+#form{
+	display: flex;
+}
+.capt{
+	display: flex;
+	flex-flow: column;
+	padding: 20px 20px 20px 20px;
+}
+.capt input{
+	width: 280px;
+	margin: 5px 0 5px 0;
+	height: 30px;
+	border-radius: 5px;
+}
+.tarea textarea{
+	width: 280px;
+	height: 150px;
+	border-radius: 10px;
+}
+.bt{
+
+	display: flex;
+	padding: 10px 10px 10px 20px;
+
+}
+.bt input{
+	font-size: 20px;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
 }
